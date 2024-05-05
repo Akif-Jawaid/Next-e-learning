@@ -1,4 +1,4 @@
-# NextGenEdu: Revolutionizing Online Learning with a Node.js and React.js E-Learning Platform
+# Next-e-learning: Revolutionizing Online Learning with a Node.js and React.js E-Learning Platform
 
 ## Problem Statement
 Existing e-learning platforms often lack the seamless integration of interactive frontend features with robust backend functionalities. This disconnect hampers user engagement and impedes the effectiveness of online education. Hence, there is a pressing need for an advanced web-based e-learning platform that leverages cutting-edge technologies to offer a cohesive, immersive learning experience.
@@ -66,3 +66,57 @@ The development methodology will follow an agile approach, emphasizing iterative
 - Flanagan, D. (2018). JavaScript: The Definitive Guide. O'Reilly Media.
 - Banks, J. (2016). Full Stack JavaScript: Learn Backbone.js, Node.js and MongoDB. Apress.
 - Freeman, A., & Robson, A. (2017). Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node. Apress.
+
+
+
+## Getting Started
+First, clone the repository
+```bash
+git clone https://github.com/Akif-Jawaid/Next-e-learning.git
+
+cd Next-e-learning
+```
+Then, install the dependencies
+
+```bash
+npm i
+# or
+npm install
+```
+Then,  run the development server:
+
+```bash
+npm run dev
+# or
+npm run start
+# or
+yarn dev
+```
+
+Open [http://localhost:5173/Next-e-learning](http://localhost:3000/Next-e-learning) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+
+Then, clone the repository in new terminal
+```bash
+git clone https://github.com/Akif-Jawaid/Next-e-learning-backend.git
+
+cd Next-e-learning-backend
+```
+Then, install the dependencies
+
+```bash
+npm i
+# or
+npm install
+```
+Then,  run the development server:
+
+```bash
+npm run start
+```
+
+Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
