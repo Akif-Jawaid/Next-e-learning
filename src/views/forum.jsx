@@ -25,7 +25,7 @@ const Forum = () => {
       console.log(response);
       if(response.status===201){
         const successModal= document.getElementById('successfulModal');
-        const bootstrapModal=bootstrap.Modal.getInstance(successModal);
+        const bootstrapModal=new bootstrap.Modal(successModal);
         bootstrapModal.show(); 
         toast.success("Question Added Successfully");
         setQuestionDetails({
